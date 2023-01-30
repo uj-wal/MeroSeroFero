@@ -1,0 +1,20 @@
+body{
+    background-color: #333333;
+    color: #ccc;
+}
+.banner .form-container{
+    margin-top: 2%;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+}
+.banner .form-container .col .submit-btn{
+    border: 0px solid;
+    background-color: #4688cf;
+    color: #ccc;
+}
+.banner .form-container a{
+    word-wrap: break-word;
+    display: inline;
+    color: #ccc;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+     <!-- Bootstrap CSS -->
+     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css"> 
+     <!--fontawesome -->
+     <link rel="stylesheet" href="fontawesome-free-5.15.3-web/css/all.css">
+     <!-- ForntPage css-->
+     <link rel="stylesheet" href="CreatePost.css" class="rf">
+
+    <title>CreatePost</title>
+</head>
+<body>
+
+    <div class="container-fluid banner">
+    <form class="form-container">
+        
+        <div class="mb-3">
+            <label for="ForTitle" class="form-label">Title</label>
+            <input type="text" class="form-control" id="ForTitle">
+        </div><br>
+        <div class="input-group mb-3">
+            <label class="input-group-text" for="inputGroupSelect">Tags</label>
+            <select class="form-select" id="inputGroupSelect">
+              <option>choose..</option>
+              <option value="1">Place</option>
+              <option value="2">Food</option>
+              <option value="3">Festival</option>
+            </select>
+        </div>    
+        <div class="mb-3">
+            <label for="ForTextarea" class="form-label">Write About</label>
+            <textarea class="form-control" id="ForTextarea" rows="3"></textarea>
+        </div>
+        <div>
+            <label for="formFileLg" class="form-label">Upload File</label>
+            <input class="form-control form-control-lg" id="formFileLg" type="file" multiple>      
+        </div> <br>
+        <div class="col">
+            <button class="submit-btn form-control btn-block" type="submit">post</button>
+        </div><br>
+        <a class="nav-link" href="HomePage.html" >Cancel</a>
+        
+    </form>
+    </div>
+    
+</body>
+</html>
